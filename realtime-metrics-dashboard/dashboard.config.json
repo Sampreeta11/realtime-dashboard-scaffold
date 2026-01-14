@@ -1,0 +1,13 @@
+{
+  "realtime": true,
+  "transport": "websocket",
+  "refreshIntervalMs": 2000,
+  "metrics": [
+    {
+      "id": "cpu_usage",
+      "query": "cpu_usage.sql",
+      "chart": "line",
+      "unit": "%"
+    }
+  ]
+}
